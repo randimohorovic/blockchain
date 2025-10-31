@@ -131,11 +131,11 @@
 	},
 	"sources": {
 		"vjezba2-remix ide/StudentRecords.sol": {
-			"keccak256": "0xadc030c8833af9df74a4f7597031c49e67095d29f20390142a8928ee4c03f2e7",
+			"keccak256": "0x422e01c659d299e2dd501a740311e835711d2e6783eaa9b01d02ac5f82ac9b10",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://586f37a08e12b7ccbde981184e33bc9f51f3e3463cd990369dea33176a3eebd9",
-				"dweb:/ipfs/Qmdt1UyYx8V8MwgnwqBnWiqyqSndVgRKuwDz3GeQhEHybw"
+				"bzz-raw://98d871aa180d09edb0bcde418fc151ec74aaee0f1aec577a300c37f370aabab7",
+				"dweb:/ipfs/QmTGim1dJqS9CFsXfbXKiRrtfd6yrkPiN3HohMqVFtU5cT"
 			]
 		}
 	},
