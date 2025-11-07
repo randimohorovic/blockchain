@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -24,8 +29,53 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -61,6 +111,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -82,6 +145,24 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -131,11 +212,11 @@
 	},
 	"sources": {
 		"vjezba2-remix ide/StudentRecords.sol": {
-			"keccak256": "0x422e01c659d299e2dd501a740311e835711d2e6783eaa9b01d02ac5f82ac9b10",
+			"keccak256": "0x6b8f5c30525a2b018f5ba9815332facc0243ee5c778f64b345eeee5a2fc372bb",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://98d871aa180d09edb0bcde418fc151ec74aaee0f1aec577a300c37f370aabab7",
-				"dweb:/ipfs/QmTGim1dJqS9CFsXfbXKiRrtfd6yrkPiN3HohMqVFtU5cT"
+				"bzz-raw://eb3af8a069b49e3862346d0762422d0e75bc2e2d4e54a89ada603d59873c6646",
+				"dweb:/ipfs/QmT1eiWMkurRdmfodfLXi8PZpBdJbGM2UUzahqxorcCb9H"
 			]
 		}
 	},
