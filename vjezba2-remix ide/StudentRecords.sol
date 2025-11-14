@@ -54,7 +54,4 @@ contract StudentRecord {
         return balances[_user];
     }
 
-
-
-
 }
